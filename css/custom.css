@@ -1,0 +1,20 @@
+/* CSS Document */
+p {text-align: left;
+}
+
+.png-thumbnail {
+    transition: transform 0.3s ease-in-out;
+}
+
+.png-thumbnail:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+body {
+  background-color: #D5DFF2;
+}
+.btn-custom {
+  background-color: #6497F5; /* Indigo or whatever you like */
+  color: white;
+  border: none;
+}
